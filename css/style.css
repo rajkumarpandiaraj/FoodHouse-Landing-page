@@ -239,9 +239,57 @@ body{
 .testimonials-user{
     display: block;
 }
+footer{
+    background-color: #222;
 
+}
+.footer-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    color: #fff;
+}
+.footer-flex .brand, h5{
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.footer-text{
+    line-height: 2;
+    margin-bottom: 1rem;
+}
+footer h4{
+    margin: 1.5rem 0;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+footer li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0.5rem;
+    border-radius: 100%;
 
-
+}
+.social-icons li{
+    width: 40px;
+    height: 40px;
+    background-color: #689f38;
+    border-radius: 100%;
+}
+.list-inline li{
+    width: 60px;
+    height: 60px;
+    background-color: #689f38 ;
+}
+.list-inline .fab{
+    font-size: 2rem;
+}
 
 
 
@@ -276,6 +324,7 @@ body{
     }
     .fa-bars{
         display: inline-block;
+        color: #000;
     }
     .nav-container{
         flex-direction: column;
@@ -323,6 +372,8 @@ body{
     width: 70%;
     padding: 2rem;
     line-height: 1.5;
-
+}
+.footer-flex{
+    grid-template-columns: 1fr;
 }
 }
